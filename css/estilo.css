@@ -21,17 +21,19 @@ h1 {color: #800000; text-align: center; text-decoration: underline; font-size: x
 
 header {width: 100%; float: left; margin: 30; box-sizing: border-box; overflow: auto;}
 
-  .pinchadas:hover {width: 60%; border: 3px solid black; background: brown; border-radius: 40%}
-  .pinchadas:link {color: black;}
-  .pinchadas:visited {color: black;}
   .hoja:hover {width: 60%; border: 4px solid black; background: brown; border-radius: 40%}
-  .hoja:link {color: black;}
-  .hoja.visited {color: black;}
+  .pinchadas:hover {width: 60%; border: 3px solid black; background: brown; border-radius: 40%}
   .panqueques:hover {width: 60%; border: 3px solid black; background: brown; border-radius: 40%}
-  .panqueques:link {color: black;}
-  .panqueques:visited {color: black;}
   .negras:hover {width: 60%; border: 4px solid black; background: brown; border-radius: 40%}
+
+  .pinchadas:link {color: black;}
+  .hoja:link {color: black;}
   .negras:link {color: black;}
+  .panqueques:link {color: black;}
+  
+  .pinchadas:visited {color: black;}
+  .hoja.visited {color: black;}
+  .panqueques:visited {color: black;}
   .negras.visited {color: black;}
 
 
